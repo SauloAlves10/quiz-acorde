@@ -2,7 +2,7 @@ body {
     font-family: Helvetica;
     color: rgb(32, 32, 32);
     padding: 10px;
-    background-color: rgb(210, 210, 210);
+    background-image: url("images/rainbow-notes.png");
 }
 
 b {
@@ -49,17 +49,17 @@ b {
 }
 
 .title {
-    text-shadow: 0px 1px 1px rgba(32, 32, 32, 0.2);
-    font-size: 35px;
+    text-shadow: 0px 1px 1px rgba(255, 96, 96);
+    font-size: 60px;
     font-weight: bold;
-    font-family: 'Segoe UI' Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rosario', sans-serif;
     padding: 10px;
     text-align: center;
-    color:rgb(255, 255, 255);
-    background-color: rgb(32, 32, 32);
+    color:rgb(1, 1, 1);
+
     width: 850px;
     margin: auto;
-    border-radius: 5px 5px 5px 5px;
+
 }
 
 .sub {
@@ -126,7 +126,7 @@ b {
     position: relative;
     max-width: 700px;
     margin: 30px auto;
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(128, 128, 128, 0.5);
     border: 2px black dashed;
 }
 
