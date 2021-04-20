@@ -51,7 +51,7 @@ function AudioSynthView() {
 		}
 
 		quiz()
-	})
+	}
 	// <===
 	listagemDeAcordes()
 	
