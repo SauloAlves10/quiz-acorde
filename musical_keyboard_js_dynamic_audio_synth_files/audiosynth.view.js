@@ -31,7 +31,7 @@ function AudioSynthView() {
 	// <===
 
 	// ===> Lista o Acorde para o Quiz baseado nas opções selecionadas na página
-	function listagemDeAcordes() {
+	(function listagemDeAcordes() {
 
 		for (element of document.getElementsByName('tipos-acordes')) {
 			if (element.checked) qualidade = element.value
@@ -51,11 +51,8 @@ function AudioSynthView() {
 		}
 
 		quiz()
-	}
+	})()
 	// <===
-
-	// Inicia o Quiz com o Acorde marcado como Checked na página
-	listagemDeAcordes()
 
 	// ===> Sorteia um acorde da lista para o Quiz após tratá-lo
 	function quiz() {
