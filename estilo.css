@@ -48,7 +48,7 @@ b {
     text-shadow: 0px 1px 1px rgba(32, 32, 32, 0.5);
 }
 
-.title {
+header {
     text-shadow: 0px 1px 1px rgba(255, 96, 96);
     font-size: 60px;
     font-weight: bold;
@@ -122,15 +122,21 @@ b {
     -o-user-select: none;
 }
 
-.about {
+footer {
     position: relative;
     max-width: 700px;
     margin: 30px auto;
     background-color: rgba(128, 128, 128, 0.5);
     border: 2px black dashed;
+    margin: 12px auto;
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px;
 }
 
-.about .header {
+footer .header {
     background-color: rgba(32, 64, 128, 0.5);
     border-radius: 10px 10px 0px 0px;
     color: rgb(255, 255, 255);
@@ -144,7 +150,7 @@ b {
     text-align: center;
 }
 
-.about .contents {
+footer .contents {
     font-size: 16px;
     line-height: 20px;
     background-color: rgb(255, 255, 255);
@@ -159,7 +165,7 @@ b {
     border: 1px solid rgb(192, 192, 192);
 }
 
-.about .footer {
+footer .footer {
     background-color: rgba(32, 64, 128, 0.5);
     border-radius: 0px 0px 10px 10px;
     color: rgb(255, 255, 255);
@@ -170,16 +176,16 @@ b {
     padding: 20px;
 }
 
-.about a,
-.about a:link,
-.about a:visited,
-.about a:active {
+footer a,
+footer a:link,
+footer a:visited,
+footer a:active {
     font-weight: bold;
     color: rgb(224, 96, 32);
     text-decoration: none;
 }
 
-.about a:hover {
+footer a:hover {
     color: rgb(224, 128, 64);
 }
 
